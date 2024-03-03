@@ -54,6 +54,12 @@ Each part of the original tutorial is tagged with the part number. For example, 
 * [DT-PART6][DT-PART6]: Core tutorial part 6 - <https://docs.djangoproject.com/en/5.0/intro/tutorial06/>
 * [DT-PART7][DT-PART7]: Core tutorial part 7 - <https://docs.djangoproject.com/en/5.0/intro/tutorial07/>
 
+The branch [kws-extras][kws-extras] adds a few additional features to the tutorial that makes it easier
+to extend further. First of all it adds a base template that all other templates extend. It also adds
+fixtures (samples) for the initial data to make it easier to get started.
+
+You can read more about the [kws-extras][kws-extras] branch in the associated blog post: [Extending the Django Tutorial][blog-extras].
+
 [DT-PART1]: https://github.com/kws/django-tutorial/releases/tag/DT-PART1
 [DT-PART2]: https://github.com/kws/django-tutorial/releases/tag/DT-PART2
 [DT-PART3]: https://github.com/kws/django-tutorial/releases/tag/DT-PART3
@@ -61,3 +67,6 @@ Each part of the original tutorial is tagged with the part number. For example, 
 [DT-PART5]: https://github.com/kws/django-tutorial/releases/tag/DT-PART5
 [DT-PART6]: https://github.com/kws/django-tutorial/releases/tag/DT-PART6
 [DT-PART7]: https://github.com/kws/django-tutorial/releases/tag/DT-PART7
+
+[kws-extras]: https://github.com/kws/django-tutorial/tree/kws-extras
+[blog-extras]: https://www.k-si.com/2024/03/03/extending-the-django-tutorial.html
