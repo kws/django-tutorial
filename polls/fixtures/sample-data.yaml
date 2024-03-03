@@ -1,0 +1,47 @@
+- model: polls.question
+  pk: 1
+  fields:
+    question_text: How are you?
+    pub_date: 2024-03-03 12:00:00+00:00
+- model: polls.choice
+  pk: 1
+  fields:
+    question: 1
+    choice_text: Good
+    votes: 0
+- model: polls.choice
+  pk: 2
+  fields:
+    question: 1
+    choice_text: Bad
+    votes: 0
+- model: polls.choice
+  pk: 3
+  fields:
+    question: 1
+    choice_text: Ugly
+    votes: 0
+
+- model: polls.question
+  pk: 2
+  fields:
+    question_text: You've got to fight...
+    pub_date: 2024-03-03 13:00:00+00:00
+- model: polls.choice
+  pk: 4
+  fields:
+    question: 2
+    choice_text: For your right… to party!
+    votes: 0
+- model: polls.choice
+  pk: 5
+  fields:
+    question: 2
+    choice_text: The man
+    votes: 0
+- model: polls.choice
+  pk: 6
+  fields:
+    question: 2
+    choice_text: The urge to nap
+    votes: 0
