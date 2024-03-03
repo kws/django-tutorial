@@ -4,5 +4,8 @@
         <title>{% block title %}My Site{% endblock %}</title>
         <link rel="stylesheet" href="{% static "base.css" %}">
     </head>
-    <body>{% block bodycontent %}{% endblock %}</body>
+    <body>
+        <div id="menubar"><a href="/">My Site</a></div>  
+        {% block bodycontent %}{% endblock %}
+    </body>
 </html>
